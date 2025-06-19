@@ -43,6 +43,5 @@ The tool is **fully standalone** and requires **no database setup** — making i
 ## 📬 Contact
 
 For questions, feedback, or contributions:
-- 📧 [tsognong.fidele@gmail.com](mailto:tsognong.fidele@gmail.com)
 - 🐙 [GitHub Profile](https://github.com/tsognong)
 - 🐙 [Linkedin Profile](https://linkedin.com/in/tsognong-fidele)
