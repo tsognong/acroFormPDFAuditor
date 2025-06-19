@@ -38,6 +38,7 @@ The tool is **fully standalone** and requires **no database setup** — making i
 
 6. Use the app’s UI to create and manage validation templates — these are stored internally in a "Templates" folder within your installation directory. No manual template file management is required.
 7. That’s it — you’re ready to inspect, validate, and manage your AcroForm PDFs!
+![Screenshot from 2025-06-19 14-05-48](https://github.com/user-attachments/assets/5b74812a-5e65-40ee-a728-5b931ffe1709)
 
 
 ## 📬 Contact
@@ -46,3 +47,4 @@ For questions, feedback, or contributions:
 - 📧 [tsognong.fidele@gmail.com](mailto:tsognong.fidele@gmail.com)
 - 🐙 [GitHub Profile](https://github.com/tsognong)
 - 🐙 [Linkedin Profile](https://linkedin.com/in/tsognong-fidele)
+
