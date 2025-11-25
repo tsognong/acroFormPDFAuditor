@@ -1,4 +1,4 @@
-# 📦 AcroForm PDF Auditor (Golang and Reactjs)
+# 📦 AcroForm PDF Auditor
 
 A lightweight **web-based Single-Page Application (SPA)** for inspecting, organizing, and validating **AcroForm PDF fields** with custom naming conventions — **no database required** and **free to use**.
 
