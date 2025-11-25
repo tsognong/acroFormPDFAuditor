@@ -1,50 +1,82 @@
-# 📦 AcroForm PDF Auditor
+# AcroForm PDF Auditor
 
-A lightweight **web-based Single-Page Application (SPA)** for inspecting, organizing, and validating **AcroForm PDF fields** with custom naming conventions — **no database required** and **free to use**.
+A lightweight, web-based tool for inspecting, organizing, and validating AcroForm PDF fields with custom naming conventions—no database required, completely free to use.
 
-**AcroForm Auditor** is a simple yet powerful tool designed to help teams and developers efficiently manage AcroForm PDF fields. It provides a **tree-based visualization of form fields**, tools to **validate naming conventions**, and a flexible UI for designing and managing those conventions.
+## Overview
 
-The tool is **fully standalone** and requires **no database setup** — making it easy to deploy and use in **document management workflows, QA processes, and PDF form design projects**.
+AcroForm PDF Auditor is a standalone application designed to streamline the management and validation of AcroForm PDF fields. It provides a tree-based visualization of form structures, customizable validation rules, and an intuitive interface for quality assurance and document management workflows.
 
----
+The application runs entirely in-browser with a local backend, requiring no external database or complex infrastructure—making it ideal for teams that need a simple yet powerful PDF form inspection tool.
 
-## ✨ Key Features
+## Key Features
 
-- 📄 **Visualize AcroForm PDF fields** with their names, types, and properties.
-- ✅ **Validate field naming conventions** using customizable rule sets.
-- 🌳 **Browse and navigate PDF structures in a tree view**.
-- 📁 **Organize PDFs within system folders**.
-- 🎨 **Design, edit, and manage validation conventions via the app’s UI** — no manual file saving required.
-- ⚙️ **No database setup required** — fully standalone, runs in-browser.
-- 🖥️ **Simple, intuitive SPA interface** for ease of use.
-- 💸 **Free to use** for all users.
+- **Field Visualization**: Browse AcroForm PDF fields with detailed information about names, types, and properties
+- **Custom Validation**: Define and apply naming convention rules through an intuitive UI
+- **Tree Navigation**: Explore PDF structures in an organized, hierarchical view
+- **Folder Organization**: Manage PDFs within custom folder structures
+- **Template Management**: Create, edit, and manage validation templates directly in the application
+- **Zero Configuration**: No database setup or external dependencies required
+- **Cross-Platform**: Available for Windows and Linux
+- **Free and Open Source**: No licensing costs or usage restrictions
 
----
+## Installation
 
-## 📖 Usage
-
-1. **[Download the executable file for your operating system here](https://github.com/tsognong/acroFormPDFAuditor/releases/tag/AcroFormPDFAuditor-v1.0.0).**
-2. **Choose an installation folder**, then unzip the package.
-3. In the directory where the executable is placed, **create one folder**:
-   - `Files` → to store your AcroForm PDFs.  
-     *(You can organize your PDFs in any folder hierarchy inside this folder, but the root should be within `Files`.)*
-4. **Run the application**:
-   - On **Windows**, simply double-click the executable.
-   - On **Linux**, run:
+1. **Download** the executable for your operating system from the [latest release](https://github.com/tsognong/acroFormPDFAuditor/releases/tag/AcroFormPDFAuditor-v1.0.0)
+2. **Extract** the package to your preferred installation directory
+3. **Create** a `Files` folder in the same directory as the executable
+   - This folder will store your AcroForm PDFs
+   - You may organize PDFs in any subfolder structure within `Files`
+4. **Launch** the application:
+   - **Windows**: Double-click the executable file
+   - **Linux**: Run the following command:
      ```bash
      ./AcroFormAuditor-v1.0-linux-amd64
      ```
-5. Once started, open your browser and navigate to http://localhost:8081.
+5. **Access** the application by opening your browser and navigating to:
+   ```
+   http://localhost:8081
+   ```
 
-6. Use the app’s UI to create and manage validation templates — these are stored internally in a "Templates" folder within your installation directory. No manual template file management is required.
-7. That’s it — you’re ready to inspect, validate, and manage your AcroForm PDFs!
-![Screenshot from 2025-06-19 14-05-48](https://github.com/user-attachments/assets/5b74812a-5e65-40ee-a728-5b931ffe1709)
+## Usage
 
+Once the application is running, you can:
 
-## 📬 Contact
+- Upload and inspect AcroForm PDF files from the `Files` folder
+- Create validation templates using the built-in template editor
+- Apply naming convention rules to verify field compliance
+- Navigate PDF structures using the interactive tree view
+- Organize and manage multiple PDF documents
 
-For questions, feedback, or contributions:
-- 📧 [tsognong.fidele@gmail.com](mailto:tsognong.fidele@gmail.com)
-- 🐙 [GitHub Profile](https://github.com/tsognong)
-- 🐙 [Linkedin Profile](https://linkedin.com/in/tsognong-fidele)
+Templates are automatically stored in the application's internal `Templates` folder—no manual file management required.
 
+![Application Screenshot](https://github.com/user-attachments/assets/5b74812a-5e65-40ee-a728-5b931ffe1709)
+
+## In Production
+
+AcroForm PDF Auditor is actively used by [**uni2grow**](https://www.uni2grow.com) as part of their IT-related PDF service workflows, supporting document processing and quality assurance operations.
+
+## Technology Stack
+
+- **Backend**: Go (Golang)
+- **Frontend**: Single-Page Application (SPA)
+- **Architecture**: Standalone web server with no external dependencies
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome. Feel free to check the [issues page](https://github.com/tsognong/acroFormPDFAuditor/issues) or submit a pull request.
+
+## License
+
+This project is open source and available under the MIT License.
+
+## Contact
+
+**Tsognong Fidele**
+
+- Email: [tsognong.fidele@gmail.com](mailto:tsognong.fidele@gmail.com)
+- GitHub: [@tsognong](https://github.com/tsognong)
+- LinkedIn: [tsognong-fidele](https://linkedin.com/in/tsognong-fidele)
+
+---
+
+**Note**: For the best experience, ensure your PDFs contain AcroForm fields (not XFA forms). The application is optimized for standard AcroForm inspection and validation workflows.
