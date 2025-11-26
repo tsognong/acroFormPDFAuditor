@@ -49,7 +49,8 @@ Once the application is running, you can:
 
 Templates are automatically stored in the application's internal `Templates` folder—no manual file management required.
 
-![Application Screenshot](https://github.com/user-attachments/assets/5b74812a-5e65-40ee-a728-5b931ffe1709)
+<img width="1299" height="738" alt="2025-11-26_14-16" src="https://github.com/user-attachments/assets/326e0b81-bb8b-4a3f-86f2-8ef4542c6c28" />
+
 
 ## In Production
 
